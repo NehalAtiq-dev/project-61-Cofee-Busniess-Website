@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee | Artisan Coffee Roasters</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Coffee.</a>
+            <div class="mobile-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Our Story</a></li>
+                <li><a href="#products">Shop</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Coffee Background" class="hero-bg">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Brewing Perfection,<br>One Cup at a Time.</h1>
+                <p>Experience the art of artisanal coffee. Sourced from the world's finest estates, roasted to perfection in small batches.</p>
+                <div class="hero-btn-wrapper">
+                    <a href="#products" class="btn">Explore Blends</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="about-grid reveal">
+                <div class="about-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Light Roast" class="product-img">
+                </div>
+                <div class="about-text">
+                    <div class="section-title" style="text-align: left; margin-bottom: 20px;">
+                        <span>Since 1998</span>
+                        <h2>Crafting Flavor & Community</h2>
+                    </div>
+                    <p>At Lumina, we believe coffee is more than just a caffeine kick—it's a ritual. We travel to remote corners of Ethiopia, Colombia, and Sumatra to find beans that tell a story.</p>
+                    <p>Our master roasters use traditional methods combined with modern precision to unlock the unique profile of every bean. From the first crack to the final pour, passion is our primary ingredient.</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <h4>25+</h4>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>12</h4>
+                            <p>Farm Partners</p>
+                        </div>
+                        <div class="stat-item">
+                            <h4>10k+</h4>
+                            <p>Happy Customers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="section-padding products">
+        <div class="container">
+            <div class="section-title reveal">
+                <span>Our Selection</span>
+                <h2>Signature Roasts</h2>
+            </div>
+            
+            <div class="product-grid reveal">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Espresso Blend" class="product-img">
+                    <h3>Midnight Espresso</h3>
+                    <span class="price">$18.00</span>
+                    <p class="desc">Dark, rich, and intense with notes of dark chocolate and caramel. Perfect for espresso lovers.</p>
+                    <a href="#" class="btn" style="padding: 10px 20px; font-size: 0.8rem;">Add to Cart</a>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Medium Roast" class="product-img">
+                    <h3>Golden Sunrise</h3>
+                    <span class="price">$16.50</span>
+                    <p class="desc">A smooth medium roast with bright acidity and hints of citrus and honey. Great for drip coffee.</p>
+                    <a href="#" class="btn" style="padding: 10px 20px; font-size: 0.8rem;">Add to Cart</a>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Light Roast" class="product-img">
+                    <h3>Ethiopian Yirgacheffe</h3>
+                    <span class="price">$22.00</span>
+                    <p class="desc">Single-origin light roast featuring floral aromatics and a berry-like finish. Complex and delicate.</p>
+                    <a href="#" class="btn" style="padding: 10px 20px; font-size: 0.8rem;">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section-padding testimonials">
+        <div class="container reveal">
+            <i class="fas fa-quote-left quote-icon"></i>
+            <div class="testimonial-slider">
+                <p class="testimonial-text">"I've tried coffee from all over the city, but Lumina is on another level. The freshness and aroma when you open the bag is unmatched. It's become my morning essential."</p>
+                <p class="author">- Sarah Jenkins, Food Critic</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <div class="section-title reveal">
+                <span>Get in Touch</span>
+                <h2>Visit Our Roastery</h2>
+            </div>
+            
+            <div class="contact-container reveal">
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p style="margin-bottom: 30px; color: #666;">Have questions about wholesale or just want to say hi? Drop us a line.</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>124 Brew Avenue, Seattle, WA</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hello@luminacoffee.com</span>
+                    </div>
+                    
+                    <div style="margin-top: 40px;">
+                        <h4>Opening Hours</h4>
+                        <p style="color: #666; font-size: 0.9rem;">Mon - Fri: 7am - 7pm<br>Sat - Sun: 8am - 6pm</p>
+                    </div>
+                </div>
+
+                <form onsubmit="event.preventDefault(); alert('Thanks for your message! We will get back to you soon.');">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group full">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="form-group full">
+                        <textarea placeholder="Your Message"></textarea>
+                    </div>
+                    <div class="form-group full">
+                        <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Coffee.</h4>
+                    <p>Artisan coffee roasters dedicated to quality, sustainability, and community.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#products">Shop Coffee</a></li>
+                        <li><a href="#contact">Wholesale</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2026 Lumina Coffee Roasters. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="add.js"></script>
+</body>
+</html>
+
